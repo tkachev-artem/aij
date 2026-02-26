@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "bun --watch src/index.ts",
     "build": "bun build src/index.ts --outdir dist --target node",
-    "start": "bun run dist/index.js"
+    "start": "bun run dist/index.js",
+    "lint": "echo 'lint not configured'"
   },
   "dependencies": {
     "express": "^4.18.2",

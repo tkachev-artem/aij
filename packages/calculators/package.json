@@ -1,5 +1,5 @@
 {
-  "name": "@aij/types",
+  "name": "@aij/calculators",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -18,9 +18,11 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
+    "@aij/types": "*",
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/node": "^20.10.0",
     "typescript": "^5.3.0"
   }
 }
