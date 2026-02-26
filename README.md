@@ -10,5 +10,5 @@ bun install
 ```
 
 ```bash
-bun install
+bun dev
 ```
